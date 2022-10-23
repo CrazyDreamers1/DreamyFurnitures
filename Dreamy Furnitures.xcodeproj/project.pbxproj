@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891F508228EC3C43001A43D7 /* WebServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F508128EC3C42001A43D7 /* WebServiceHandler.swift */; };
+		891F508428EC569A001A43D7 /* FurnitureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F508328EC569A001A43D7 /* FurnitureCell.swift */; };
+		89A5604628E9C33E004A1F61 /* Dreamy_FurnituresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A5604528E9C33E004A1F61 /* Dreamy_FurnituresApp.swift */; };
+		89A5604828E9C33E004A1F61 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A5604728E9C33E004A1F61 /* HomeView.swift */; };
+		89A5604A28E9C342004A1F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A5604928E9C342004A1F61 /* Assets.xcassets */; };
+		89A5604D28E9C342004A1F61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A5604C28E9C342004A1F61 /* Preview Assets.xcassets */; };
+		89A5605A28E9C4D6004A1F61 /* Interector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A5605928E9C4D6004A1F61 /* Interector.swift */; };
+		89A5605C28E9C4EF004A1F61 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A5605B28E9C4EF004A1F61 /* Presenter.swift */; };
+		89A5605E28E9C51A004A1F61 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A5605D28E9C51A004A1F61 /* Entity.swift */; };
+		89A5606028E9C53E004A1F61 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A5605F28E9C53E004A1F61 /* Router.swift */; };
+		89AB5F6829011638004EC686 /* FurnitureObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB5F6729011638004EC686 /* FurnitureObjects.swift */; };
+		89B1ACFE28F532F60018671B /* BgTopShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B1ACFD28F532F60018671B /* BgTopShape.swift */; };
+		89D011BF2900348C004FA1FB /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D011BE2900348C004FA1FB /* ControlView.swift */; };
+		89D011C1290036F9004FA1FB /* ListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D011C0290036F9004FA1FB /* ListHeader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		891F508128EC3C42001A43D7 /* WebServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceHandler.swift; sourceTree = "<group>"; };
+		891F508328EC569A001A43D7 /* FurnitureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureCell.swift; sourceTree = "<group>"; };
+		89A5604228E9C33E004A1F61 /* Dreamy Furnitures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dreamy Furnitures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A5604528E9C33E004A1F61 /* Dreamy_FurnituresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dreamy_FurnituresApp.swift; sourceTree = "<group>"; };
+		89A5604728E9C33E004A1F61 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		89A5604928E9C342004A1F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89A5604C28E9C342004A1F61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89A5605928E9C4D6004A1F61 /* Interector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interector.swift; sourceTree = "<group>"; };
+		89A5605B28E9C4EF004A1F61 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		89A5605D28E9C51A004A1F61 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		89A5605F28E9C53E004A1F61 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		89AB5F6729011638004EC686 /* FurnitureObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureObjects.swift; sourceTree = "<group>"; };
+		89B1ACFD28F532F60018671B /* BgTopShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgTopShape.swift; sourceTree = "<group>"; };
+		89D011BE2900348C004FA1FB /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		89D011C0290036F9004FA1FB /* ListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A5603F28E9C33E004A1F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891F508028EC3C0A001A43D7 /* WebServiceHandler */ = {
+			isa = PBXGroup;
+			children = (
+				891F508128EC3C42001A43D7 /* WebServiceHandler.swift */,
+			);
+			path = WebServiceHandler;
+			sourceTree = "<group>";
+		};
+		89A5603928E9C33E004A1F61 = {
+			isa = PBXGroup;
+			children = (
+				89A5604428E9C33E004A1F61 /* Dreamy Furnitures */,
+				89A5604328E9C33E004A1F61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89A5604328E9C33E004A1F61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A5604228E9C33E004A1F61 /* Dreamy Furnitures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A5604428E9C33E004A1F61 /* Dreamy Furnitures */ = {
+			isa = PBXGroup;
+			children = (
+				89A5604528E9C33E004A1F61 /* Dreamy_FurnituresApp.swift */,
+				89A5605428E9C3C2004A1F61 /* Modules */,
+				891F508028EC3C0A001A43D7 /* WebServiceHandler */,
+				89A5604928E9C342004A1F61 /* Assets.xcassets */,
+				89A5604B28E9C342004A1F61 /* Preview Content */,
+			);
+			path = "Dreamy Furnitures";
+			sourceTree = "<group>";
+		};
+		89A5604B28E9C342004A1F61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89A5604C28E9C342004A1F61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89A5605328E9C399004A1F61 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				89A5606128E9C554004A1F61 /* View */,
+				89A5605928E9C4D6004A1F61 /* Interector.swift */,
+				89A5605B28E9C4EF004A1F61 /* Presenter.swift */,
+				89A5605D28E9C51A004A1F61 /* Entity.swift */,
+				89A5605F28E9C53E004A1F61 /* Router.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		89A5605428E9C3C2004A1F61 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				89A5605328E9C399004A1F61 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		89A5606128E9C554004A1F61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89A5604728E9C33E004A1F61 /* HomeView.swift */,
+				89B1ACFD28F532F60018671B /* BgTopShape.swift */,
+				89AB5F6729011638004EC686 /* FurnitureObjects.swift */,
+				89D011C0290036F9004FA1FB /* ListHeader.swift */,
+				891F508328EC569A001A43D7 /* FurnitureCell.swift */,
+				89D011BE2900348C004FA1FB /* ControlView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89A5604128E9C33E004A1F61 /* Dreamy Furnitures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A5605028E9C342004A1F61 /* Build configuration list for PBXNativeTarget "Dreamy Furnitures" */;
+			buildPhases = (
+				89A5603E28E9C33E004A1F61 /* Sources */,
+				89A5603F28E9C33E004A1F61 /* Frameworks */,
+				89A5604028E9C33E004A1F61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dreamy Furnitures";
+			productName = "Dreamy Furnitures";
+			productReference = 89A5604228E9C33E004A1F61 /* Dreamy Furnitures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A5603A28E9C33E004A1F61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					89A5604128E9C33E004A1F61 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 89A5603D28E9C33E004A1F61 /* Build configuration list for PBXProject "Dreamy Furnitures" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89A5603928E9C33E004A1F61;
+			productRefGroup = 89A5604328E9C33E004A1F61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A5604128E9C33E004A1F61 /* Dreamy Furnitures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A5604028E9C33E004A1F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A5604D28E9C342004A1F61 /* Preview Assets.xcassets in Resources */,
+				89A5604A28E9C342004A1F61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A5603E28E9C33E004A1F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A5605A28E9C4D6004A1F61 /* Interector.swift in Sources */,
+				89A5605E28E9C51A004A1F61 /* Entity.swift in Sources */,
+				891F508428EC569A001A43D7 /* FurnitureCell.swift in Sources */,
+				89D011C1290036F9004FA1FB /* ListHeader.swift in Sources */,
+				89A5604828E9C33E004A1F61 /* HomeView.swift in Sources */,
+				89D011BF2900348C004FA1FB /* ControlView.swift in Sources */,
+				89B1ACFE28F532F60018671B /* BgTopShape.swift in Sources */,
+				89AB5F6829011638004EC686 /* FurnitureObjects.swift in Sources */,
+				89A5605C28E9C4EF004A1F61 /* Presenter.swift in Sources */,
+				89A5606028E9C53E004A1F61 /* Router.swift in Sources */,
+				89A5604628E9C33E004A1F61 /* Dreamy_FurnituresApp.swift in Sources */,
+				891F508228EC3C43001A43D7 /* WebServiceHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89A5604E28E9C342004A1F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89A5604F28E9C342004A1F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89A5605128E9C342004A1F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dreamy Furnitures/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2X4MPKRBA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.izak.Dreamy-Furnitures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89A5605228E9C342004A1F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dreamy Furnitures/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2X4MPKRBA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.izak.Dreamy-Furnitures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A5603D28E9C33E004A1F61 /* Build configuration list for PBXProject "Dreamy Furnitures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A5604E28E9C342004A1F61 /* Debug */,
+				89A5604F28E9C342004A1F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A5605028E9C342004A1F61 /* Build configuration list for PBXNativeTarget "Dreamy Furnitures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A5605128E9C342004A1F61 /* Debug */,
+				89A5605228E9C342004A1F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89A5603A28E9C33E004A1F61 /* Project object */;
+}
